@@ -8,9 +8,9 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/8/">Lab 8 Description</a>
  */
 public class Bank {
-
-    public String bankName;
-
+/** The name of the bank. */
+    private String bankName;
+/** Initializing a name for the bank.*/
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -26,9 +26,7 @@ public class Bank {
      * @return boolean
      */
     public boolean withdrawMoney(final BankAccount bankAccount, final double amount) {
-        /*
-         * Implement this function
-         */
+        
     }
 
     /**
